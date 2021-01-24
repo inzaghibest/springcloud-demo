@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: eureka-client
+          uri: http://localhost:8762
+          predicates:
+            - Path=/hi1
+            # After路由断言工厂: 可配置一个时间，只有请求的时间在配置时间之后，才交给路由去处理；否则报错，不通过路由
+            - After=2021-01-20T17:24:27.789-07:00[America/Denver]
+            # Header断言工厂： 需要2个参数，分别是Header的键和Header的值，断言通过，进入路由的逻辑中去；否则，返回错误信息。
+            #- Header=X-Request-Id, \d+
+            # Cookie断言工厂: 需要2个参数，分别是Cookie和Cookie的值。Cookie的值可以为正则表达式。
+            # - Cookie=name, zhangxp
+            # Method路由断言工厂： 方法断言工厂，只允许配置请求类型的请求路由通过。该断言工厂需要一个请求类型的参数：GET,POST等
+            - Method=GET
+            # Query断言工厂： 请求参数断言工厂，当请求携带的参数和配置的参数匹配时，路由被正确转发。
+            - Query=foo, ba.
+        - id: eureka-client2
+          uri: http://localhost:8762
+          predicates:
+            - Path=/hi
+  application:
+    name: eureka-gateway-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,5 @@
+com\zhangxp\EurekaClientFeign.class
+com\zhangxp\controller\HiController.class
+com\zhangxp\service\HiService.class
+com\zhangxp\EurekaFeignClientApplication.class
+com\zhangxp\config\FeignConfig.class

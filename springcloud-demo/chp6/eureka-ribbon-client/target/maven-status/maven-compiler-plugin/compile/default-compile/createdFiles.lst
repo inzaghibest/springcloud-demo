@@ -1,0 +1,4 @@
+com\zhangxp\controller\RibbonContorller.class
+com\zhangxp\service\RibbonService.class
+com\zhangxp\config\RibbonConfig.class
+com\zhangxp\EurekaRibbonClientApplication.class
