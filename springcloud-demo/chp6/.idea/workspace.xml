@@ -2,36 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033794af-b859-457c-a1c2-079a32dc8098" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-gateway/eureka-client-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-gateway/src/main/java/com/zhangxp/EurekaGatewayClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-gateway/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-zuul/eureka-client-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-zuul/src/main/java/com/zhangxp/EurekaZuulClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-zuul/src/main/java/com/zhangxp/component/MyFallbackProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-zuul/src/main/java/com/zhangxp/component/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/zhangxp/HiHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/config-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/java/com/zhangxp/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/config-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/java/com/zhangxp/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/shared/config-client-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/eureka-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/src/main/java/com/zhangxp/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/springcloudconfigdemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/eureka-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chp6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/zhangxp/EurekaClientFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/zhangxp/EurekaClientFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-ribbon-client/eureka-ribbon-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/zhangxp/EurekaRibbonClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/zhangxp/EurekaRibbonClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/zhangxp/service/RibbonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/zhangxp/service/RibbonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-ribbon-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon-client/ribbon-client.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +59,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -222,6 +214,8 @@
       <workItem from="1611217787842" duration="2700000" />
       <workItem from="1611366860094" duration="19283000" />
       <workItem from="1611420067389" duration="10030000" />
+      <workItem from="1611670220545" duration="166000" />
+      <workItem from="1611751390042" duration="1872000" />
     </task>
     <servers />
   </component>
@@ -237,26 +231,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611398199182" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1611420244328">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1611751764426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611420244328" />
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1611461557711">
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611751764426" />
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1611670417844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611461557711" />
-    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1611461557711">
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611670417844" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1611670417844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611461557711" />
-    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1611461557711">
+    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611670417844" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1611670417844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611461557711" />
-    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1611461557711">
+    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611670417844" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1611670417844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611461557711" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611670417844" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1611461557711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -277,9 +271,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611422423283" />
-    <state x="20" y="81" key="new project wizard" timestamp="1611402144361">
+    <state x="20" y="81" key="new project wizard" timestamp="1611751773706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="20" y="81" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611402144361" />
+    <state x="20" y="81" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1611751773706" />
   </component>
 </project>
