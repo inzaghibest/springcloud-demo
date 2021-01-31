@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033794af-b859-457c-a1c2-079a32dc8098" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/config-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/java/com/zhangxp/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/config-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/java/com/zhangxp/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/shared/config-client-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/eureka-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/src/main/java/com/zhangxp/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/springcloudconfigdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/application-git.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/application-native.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/java/com/zhangxp/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/java/com/zhangxp/ConfigClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/java/com/zhangxp/controller/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/java/com/zhangxp/controller/HiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/java/com/zhangxp/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/java/com/zhangxp/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudconfigdemo/config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +206,8 @@
       <workItem from="1611420067389" duration="10030000" />
       <workItem from="1611670220545" duration="166000" />
       <workItem from="1611751390042" duration="1872000" />
+      <workItem from="1611967492117" duration="617000" />
+      <workItem from="1611970381221" duration="19000" />
     </task>
     <servers />
   </component>

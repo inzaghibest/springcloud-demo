@@ -3,7 +3,25 @@ spring:
     name: config-client
   cloud:
     config:
-      uri: http://localhost:8769
       fail-fast: true
+      discovery:
+        enabled: true
+        service-id: config-server
+    bus:
+      enabled: true
+      trace:
+        enabled: true
   profiles:
     active: dev
+  rabbitmq:
+    host: 49.232.105.82
+    port: 5672
+    username: zhxp
+    password: 7324368
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+  security:
+    enabled: false

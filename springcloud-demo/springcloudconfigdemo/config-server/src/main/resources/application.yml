@@ -1,12 +1,22 @@
-spring:
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: classpath:/shared
-  profiles:
-    active: native
-  application:
-    name: config-server
 server:
   port: 8769
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: jdbc
+  datasource:
+    url: jdbc:mysql://49.232.105.82:3308/master?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: A...qqq321
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    config:
+      label: master
+      server:
+        jdbc:
+          sql: SELECT key1, value1 from config_properties where APPLICATION=? and PROFILE=? and LABEL=?
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
