@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DistributedZuulGateway" />
+        <module name="DistributedAuthServer" />
+        <module name="DistributedSecurityGateway" />
+        <module name="DistributedEurekaServer" />
+        <module name="DistributedOrderResource" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DistributedAuthServer" options="-parameters" />
+      <module name="DistributedEurekaServer" options="-parameters" />
+      <module name="DistributedOrderResource" options="-parameters" />
+      <module name="DistributedSecurityDemo" options="-parameters" />
+      <module name="DistributedSecurityGateway" options="-parameters" />
+      <module name="DistributedZuulGateway" options="-parameters" />
+    </option>
+  </component>
+</project>

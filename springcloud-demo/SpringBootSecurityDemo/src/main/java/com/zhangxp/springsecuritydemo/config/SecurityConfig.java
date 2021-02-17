@@ -61,15 +61,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
 
-    /*
-    * configure(HttpSecurity http)用来配置是否所有用户都需要身份验证？工程的哪些资源需要验证？哪些不需要验证等等都需要覆写此方法
-    * 实现。
-    * 以/css/**开头的资源和/index资源不需要验证，外接请求可以直接访问这些资源。
-      以/user/**和blogs/**开头的资源需要验证，并且需要用户的角色为"USER"
-      表单登录的地址是/login,登录失败的地址是/login-error
-      异常处理会重定向到/401页面
-      注销登录成功会重定向到首页。
-     */
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
@@ -77,7 +69,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/user/**").hasRole("USER")
                 .antMatchers("/blogs/**").hasRole("USER")
                 .and()
-                .formLogin().loginPage("/login").failureUrl("/login-error")
+                .formLogin().failureUrl("/login-error")
+//                .formLogin().loginPage("/login").failureUrl("/login-error")
                 .and()
                 .exceptionHandling().accessDeniedPage("/401");
         http.logout().logoutSuccessUrl("/");

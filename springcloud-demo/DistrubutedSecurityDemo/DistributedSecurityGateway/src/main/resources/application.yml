@@ -1,0 +1,26 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: service-auth
+          uri: lb://SERVICE-AUTH
+          predicates:
+            - Path=/auth/**
+        - id: service-order
+          uri: lb://SERVICE-ORDER
+          predicates:
+            - Path=/order/**
+  application:
+    name: eureka-gateway-client
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  main:
+    allow-bean-definition-overriding: true
+
